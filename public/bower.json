@@ -1,0 +1,23 @@
+{
+  "name": "product-product-express",
+  "version": "0.0.0",
+  "homepage": "https://github.com/RayMan504/servers",
+  "authors": [
+    "RayMan504 <uraeusmillet@gmail.com>"
+  ],
+  "description": "A searchable product list...",
+  "main": "index.html",
+  "license": "Copyright Operation Spark",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "lodash": "~3.10.1"
+  }
+}

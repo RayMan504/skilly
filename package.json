@@ -1,0 +1,36 @@
+{
+  "name": "skilly",
+  "version": "1.0.0",
+  "description": "skills app",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RayMan504/skilly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RayMan504/skilly/issues"
+  },
+  "homepage": "https://github.com/RayMan504/skilly#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mysql": "^2.10.2",
+    "sequelize": "^3.19.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "mockery": "^1.4.1",
+    "sinon": "^1.17.3",
+    "supertest": "^1.2.0",
+    "bcrypt": "0.7.x",
+    "cookie-parser": "latest",
+    "express-session": "latest"
+  }
+}
